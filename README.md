@@ -1,1 +1,1 @@
-# Learning-Blockchain-and-Smart-Contracts
+## Learning Blockchain and Smart Contracts
