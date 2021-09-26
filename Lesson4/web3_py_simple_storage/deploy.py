@@ -4,14 +4,15 @@ from web3 import Web3
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # imports .env file
+# imports .env file
+load_dotenv()
 
 with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
 
 install_solc("0.6.0")
 
-# Solidity source code
+# compiling solidity source code
 compiled_sol = compile_standard(
     {
         "language": "Solidity",
